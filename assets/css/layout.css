@@ -1,0 +1,44 @@
+body {
+    margin: 20px 2%;
+    padding: 0;
+}
+
+a:link {
+    color: darkgreen;
+}
+
+a:hover,
+a:focus {
+    color: black;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+.container{
+clear: both;
+margin: 0 auto;
+max-width: 1500px;
+}
+
+header {
+    clear: both;
+    max-width: 1500px;
+    margin: 0 auto 20px;
+    border-bottom: 2px solid darkblue;
+}
+
+header h1 {
+    color: blue;
+    font-size: 3rem;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header a {
+    display: inline-block;
+    padding: 10px 20px;
+}
